@@ -1,0 +1,87 @@
+correctness
+reliability
+robustness
+
+Para os atributos abaixo, edite este arquivo e coloque o seu nome ao lado de um atributo. 
+Cada atributo de qualidade pode ter, no máximo, 3 nomes.
+
+accessibility - nome1, nome2, nome3
+accountability
+accuracy
+adaptability
+administrability
+affordability
+agility 
+auditability
+autonomy 
+availability
+compatibility
+composability
+configurability
+credibility
+customizability
+debugability
+degradability
+determinability
+demonstrability
+dependability
+deployability
+discoverability
+distributability
+durability
+effectiveness
+efficiency
+evolvability
+extensibility
+failure transparency
+fault-tolerance
+fidelity
+flexibility
+inspectability
+installability
+integrity
+interchangeability
+interoperability [Erl]
+learnability
+maintainability
+manageability
+mobility
+modifiability
+modularity
+operability
+orthogonality
+portability
+precision
+predictability
+process capabilities
+producibility
+provability
+recoverability
+relevance
+repairability
+repeatability
+reproducibility
+resilience
+responsiveness
+reusability
+safety
+scalability
+seamlessness
+self-sustainability
+serviceability (a.k.a. supportability)
+securability
+simplicity
+stability
+standards compliance
+survivability
+sustainability
+tailorability
+testability
+timeliness
+traceability
+transparency
+ubiquity
+understandability
+upgradability
+usability
+verifiability
