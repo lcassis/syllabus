@@ -7,19 +7,19 @@ Cada atributo de qualidade pode ter, no máximo, 3 nomes.
 
 accessibility - nome1, nome2, nome3
 accountability
-accuracy - daniel kiluange, felipe baruch
+accuracy
 adaptability
 administrability
 affordability
-agility  - daniel kiluange, felipe baruch
+agility - Paulo Vinicius, Leonora Assis
 auditability
 autonomy 
-availability
+availability - Paulo Vinicius, Leonora Assis
 compatibility
 composability
 configurability
-credibility
-customizability
+credibility - Paulo Vinicius, Leonora Assis
+customizability - Paulo Vinicius, Leonora Assis
 debugability
 degradability
 determinability
@@ -28,18 +28,18 @@ dependability
 deployability
 discoverability
 distributability
-durability - daniel kiluange, felipe baruch
-effectiveness
-efficiency - daniel kiluange, felipe baruch
+durability 
+effectiveness 
+efficiency - Paulo Vinicius, Leonora Assis
 evolvability
 extensibility
 failure transparency
 fault-tolerance
-fidelity
-flexibility - daniel kiluange, felipe baruch
+fidelity - Paulo Vinicius, Leonora Assis
+flexibility - Paulo Vinicius, Leonora Assis
 inspectability
 installability
-integrity - daniel kiluange, felipe baruch
+integrity
 interchangeability
 interoperability [Erl]
 learnability
@@ -48,7 +48,7 @@ manageability
 mobility
 modifiability
 modularity
-operability - daniel kiluange, felipe baruch
+operability
 orthogonality
 portability
 precision
@@ -61,15 +61,15 @@ relevance
 repairability
 repeatability
 reproducibility
-resilience - daniel kiluange, felipe baruch
+resilience
 responsiveness
 reusability
 safety
-scalability
+scalability- Paulo Vinicius, Leonora Assis
 seamlessness
 self-sustainability
 serviceability (a.k.a. supportability)
-securability - daniel kiluange, felipe baruch
+securability
 simplicity
 stability
 standards compliance
@@ -83,5 +83,5 @@ transparency
 ubiquity
 understandability
 upgradability
-usability
+usability - Paulo Vinicius, Leonora Assis
 verifiability
