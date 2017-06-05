@@ -1,0 +1,112 @@
+# Plano de Revisão
+
+Os slides mencionados encontram-se no deck.
+
+## Introdução à Engenharia de Software
+
+   1 Sobre Engenharia de Software, sua relevância como disciplina, comparação com outras engenharias, etc., ver os artigos 01 e 02 (subpasta /material/engenharia)
+   1 Sobre conceitos básicos ou Introdução à Engenharia de Software, ver o artigo 03 (Cap1. de Sommerville) na subpasta /Material/Engenharia
+   1 Sobre Engenharia de Software, corpo de conhecimento, visão geral das sub-áreas, ver subpasta /material/swebok), arquivo SWEBOK-Introduction.pdf
+
+## Atributos de Qualidade
+   1 Sobre atributos de qualidade (slides) - ver .pdf 02, subpasta /atividades/aula-08, e capítulo 2 do livro de C. Ghezzi (xerox).
+
+## Software Life Span Models
+   1 Cap. 2 de Rajlich, [[http://www.cs.uakron.edu/~collard/cs480-001/notes/SESoftwareLifeSpanModels.html#/][Alguns slides]]
+
+<!--
+
+## Metodologias Ágeis
+
+[[DesenvolvimentoAgil][Desenvolvimento de Software Ágil]], Práticas e Princípios Ágeis, Metodologias ágeis;
+Extreme Programming (XP), Práticas de XP, Jogo do Planejamento ([[https://intranet.dcc.ufba.br/pastas/pub/MATA62t01/atividades/aula-11-Lab-03/][slides]])
+
+   1 Sobre Metodologias Ágeis: http://ccsl.ime.usp.br/agilcoop/artigos
+   2 Sobre XP: http://www.extremeprogramming.org/ e http://ccsl.ime.usp.br/agilcoop/
+   3 Sobre XP:  http://improveit.com.br/xp e Scrum: http://improveit.com.br/scrum
+
+
+## (Processo de) Mudança de Software
+
+   * [[http://intranet.dcc.ufba.br/pastas/pub/MATA62t01/material/04%20mudanca/][Artigos na pasta da disciplina]]
+   * [[http://www.cs.wayne.edu/rajlich/SlidesSE/05%20introduction%20to%20software%20change.pdf][Software Change - slides do Prof. Rajlich]]
+
+<img src="%ATTACHURLPATH%/sc.png" alt="sc.png" width='160' height='380' />
+
+### Iniciação (Initiation) 
+
+Iniciação (Initiation) é a primeira fase do processo de mudança de software. A mudança de software começa quando programadores decidem implementar uma mudança, por exemplo, inclusão de uma funcionalidade nova ou  correção de um bug.
+
+### Localização de Conceitos (Concept Location)
+
+Quando programadores decidem implementar uma mudança de software específica, o primeiro passo é encontrar a parte do código que precisa ser modificada. Localização de Conceitos (Concept Location) é uma técnica que permite a identificação do código que precisa mudar. Concept location pode consumir bastante tempo em programas grandes e complexos.
+
+   * [[http://jripples.sourceforge.net/jripples/manual/concepts/icconceptlocation.html][Concept Location, jripples]]
+
+### Análise de Impacto (Impact Analysis)
+
+   * [[http://jripples.sourceforge.net/jripples/manual/concepts/icconceptlocation.html][Impact Analysis, jripples]]
+
+### Actualization
+
+Mudanças pequenas x grandes; propagação da mudança; propagação de mudança x análise de impacto (precision e recall).
+
+### Prefactoring e Posfactoring
+
+Ver material de Refactoring.
+
+### Conclusion
+
+(ainda não trabalhado)
+
+### Projeto de Software
+
+Modularidade, acoplamento, coesão. Avaliação do projeto de software com métricas.
+
+### Padrões de Projeto
+   * Olhar pasta (html de GOF)
+   * Olhar website do Hillside Group, PLOP, SugarLoaf PLOP, etc.
+
+### Visualização de software
+(ainda não trabalhado)
+
+### Verificação de software
+
+---+++ Testes e TDD
+   * Sobre conceitos básicos obre testes, olhar capítulos de livros de ES (Sommerville, Pressman). 
+    
+- Para ver um exemplo sobre quantidade de testes para um exemplo simples (exemplo clássico do "teste do tipo de triângulo"), ver a página 2 do livro de Myers (The Art of Software Testing).
+
+http://books.google.com/books?id=86rz6UExDEEC&dq=the+art+of+software+testing+myers&printsec=frontcover&source=bl&ots=yPUoMfmevM&sig=pdbtM6ugmKWsDGdbQOpo2vRnDEo&hl=pt-BR&ei=eRCcSoDlCOKFmQeVwKmxBA&sa=X&oi=book_result&ct=result&resnum=3#v=onepage&q=&f=false
+
+- Para ver o mesmo exemplo para OO, olhar o livro "Testing object-oriented systems" (Chapter 1 - A Small Challenge, pag. 7-8).
+
+http://books.google.com/books?id=EVkEMahB2MUC&dq=testing+object-oriented+systems&printsec=frontcover&source=bn&hl=pt-BR&ei=nzKcSsG8L-OK8QbD05ysBQ&sa=X&oi=book_result&ct=result&resnum=5#v=onepage&q=&f=false
+
+   * Sobre testes de unidade com Ruby, olhar http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/classes/Test/Unit.html
+   * Sobre testes e XP. olhar textos na web (http://www.extremeprogramming.org/rules/testfirst.html),  material da AgilCoop (http://ccsl.ime.usp.br/agilcoop/)
+   * Sobre testes automatizados, olhar ZenTest, especificamente autotest. O autotest roda os testes automaticamente e apenas os métodos que foram alterados.  
+
+"sudo gem install zentest --include-dependencies -y"
+
+### Princípios OO
+
+   * Artigos de Robert Martin sobre Princípios OO: http://www.objectmentor.com/resources/publishedArticles.html
+
+### Textos sobre frameworks OO
+
+Seguem alguns textos sobre frameworks OO como sugestão de leitura. Lembrem-se que utilizamos dois frameworks ao longo do semestre. Seria interessante refletir sobre:
+   * domínio e propósito do framework
+   * pontos de extensão (hot spots) x frozen spots
+   * tipo de reuso (white-box, black-box, etc.)
+   * inversão de controle/dependência (Hollywood Principle)
+   * e outros conceitos mencionados
+
+   * Cap.1 da tese de Ivan Mathias - ftp://ftp.inf.puc-rio.br/pub/docs/theses/02_PhD_mathiasfilho.pdf
+   * Cap. 2 da tese de Uira Kulesza (ver exemplo do JUnit) - http://www.maxwell.lambda.ele.puc-rio.br/Busca_etds.php?strSecao=resultado&nrSeq=10965@2
+   * Cap. 1 e Seção 2.2 da Tese de Marcos Fontoura (ver varios exemplos de frameworks no final da tese) - ftp://ftp.inf.puc-rio.br/pub/docs/theses/99_PhD_fontoura.pdf
+
+   * Artigo JUnit: A Cook's Tour -  http://junit.sourceforge.net/doc/cookstour/cookstour.htm
+   * Artigo na ACM sobre Desenvolvimento de Frameworks que usa JUnit como exemplo: http://www.acm.org/crossroads/xrds7-4/frameworks.html
+-->
+     
