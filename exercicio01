@@ -3,12 +3,13 @@ Milestone: Exercício 01 - Leitura, pesquisa e sobre Ilities (software, produto,
 
 * Ler sobre atributos de qualidade de software (illities). 
 * Escolher de 9 a 12 atributos de qualidade de produto. 
-* Colocar uma breve definiçāo para correção, confiabilidade e robustez (citar as fontes)
-* Colocar uma breve definição para 3 ou mais atributos externos
-* Colocar uma breve definição para 3 ou mais atributos internos
-* Mostrar graficamente a interdependência entre os atributos escolhidos. 
+* Colocar uma breve definiçāo para (citar as fontes):
+  * correção, confiabilidade e robustez 
+  * 3 ou mais atributos externos
+  * 3 ou mais atributos internos
+* Mostrar graficamente a interdependência entre os atributos acima. Sugestāo: desenhar um grafo, onde cada nó representa um atributo de qualidade e uma aresta entre dois atributos A e B indica que alcançar o atributo de qualidade A contribui para alcançar o atributo B. Comente sobre as interdependências entre atributos e sobre a importância relativa de cada um deles.
 
-Sugestāo: usar um grafo, onde atributos sāo os vértices. Ligar atributos relacionados, indicando se um atributo afeta positivamente (+) ou negativamente (-) outro. Por exemplo, desempenho pode afetar usabilidade (como?).
+
 
 
 
